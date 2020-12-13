@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList 组件 组件渲染样式不变 1`] = `
+<div>
+  <Header
+    addUndoItem={[Function]}
+  />
+  <UndoList
+    changeStatus={[Function]}
+    deleteItem={[Function]}
+    handleBlur={[Function]}
+    undoList={Array []}
+    valueChange={[Function]}
+  />
+</div>
+`;
