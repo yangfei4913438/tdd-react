@@ -1,0 +1,65 @@
+.undo_list {
+  margin: 10px auto;
+  width: 600px;
+}
+
+.undo_list_title {
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.undo_list_count {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  background: #e6e6ea;
+  border-radius: 50%;
+}
+
+.undo_list_content {
+  list-style-type: none;
+}
+.undo_list_item {
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background: #fff;
+  border-left: 3px solid #629a9c;
+  padding: 0 10px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.undo_list_del {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background: #e6e6ea;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+.undo_list_item_text {
+  flex: 1;
+}
+.undo_list_item_input {
+  width: 300px;
+  height: 70%;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 0 10px;
+  outline: none; /* 禁止外部的聚焦边框 */
+}
+.undo_list_item_input_bak {
+  flex: 1;
+  height: 100%;
+}
